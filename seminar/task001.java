@@ -1,9 +1,5 @@
 package seminar;
 
-import java.sql.Array;
-import java.sql.Time;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class task001 {
