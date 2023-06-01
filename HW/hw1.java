@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class hw1 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         int[] array = generateRandomArray(1000);
 
