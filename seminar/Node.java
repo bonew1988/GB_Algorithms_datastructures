@@ -1,7 +1,13 @@
-package seminar;
+package seminar.lastseminar;
 
-public class Node <E> {
-    E value;
-    Node<E> nextNode;
-    Node<E> previousNode;
+public class Node <K, V> {
+    K key;
+    V value;
+
+    Node<K, V> nextNode;
+
+    public Node(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
 }
